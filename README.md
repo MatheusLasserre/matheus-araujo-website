@@ -1,1 +1,1 @@
-Static Pages Website made with Next JS by Matheus Lasserre.
+Static Pages Website made with Next Js by Matheus Lasserre.
