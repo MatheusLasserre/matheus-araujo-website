@@ -29,10 +29,10 @@ export default function ODespertarInscricao() {
                         <p className={ styles.thirdParagraph }>
                             Evento <span className={styles.strong}>100% online</span> e <span className={styles.strong}>100% gratuito</span>.
                         </p>
-                        <div className={ styles.dateBtn }>de 31/05 a 02/06</div>
+                        <div className={ styles.dateBtn + ' ' + styles.strong }>de 31/05 a 02/06</div>
                         <p className={ styles.textCta }>Preencha o formulário abaixo e prepare-se. <span className={`styles.strong styles.strongline`}>Chegou a hora de despertar.</span></p>
                         <div className={ styles.formWrap }>
-                            <form method="POST" action="https://matheusaraujo.activehosted.com/proc.php" className={`mainorm _form _form_1 _inline-form _dark`} id="_form_1_">
+                            <form method="POST" action="https://matheusaraujo.activehosted.com/proc.php" className={`mainForm _form _form_1 _inline-form _dark`} id="_form_1_">
                                 <input type="hidden" name="u" defaultValue={1} />
                                 <input type="hidden" name="f" defaultValue={1} />
                                 <input type="hidden" name="s" />
