@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/o-despertar-inscricao.module.css'
 import Image from 'next/image'
 
-export default function ODespertarInscricao() {
+export default function getStaticprops() {
   return (
     <div>
         <Head>
@@ -30,9 +30,9 @@ export default function ODespertarInscricao() {
                             Evento <span className={styles.strong}>100% online</span> e <span className={styles.strong}>100% gratuito</span>.
                         </p>
                         <div className={ styles.dateBtn + ' ' + styles.strong }>de 31/05 a 02/06</div>
-                        <p className={ styles.textCta }>Preencha o formulário abaixo e prepare-se. <span className={`styles.strong styles.strongline`}>Chegou a hora de despertar.</span></p>
+                        <p className={ styles.textCta }>Preencha o formulário abaixo e prepare-se. <span className={styles.strong + ' ' + styles.strongline}>Chegou a hora de despertar.</span></p>
                         <div className={ styles.formWrap }>
-                            <form method="POST" action="https://matheusaraujo.activehosted.com/proc.php" className={`mainForm _form _form_1 _inline-form _dark`} id="_form_1_">
+                            <form method="POST" action="https://matheusaraujo.activehosted.com/proc.php" className={styles.mainForm} id="_form_1_">
                                 <input type="hidden" name="u" defaultValue={1} />
                                 <input type="hidden" name="f" defaultValue={1} />
                                 <input type="hidden" name="s" />
@@ -41,15 +41,15 @@ export default function ODespertarInscricao() {
                                 <input type="hidden" name="act" defaultValue="sub" />
                                 <input type="hidden" name="v" defaultValue={2} />
                                 <div>
-                                    <label htmlFor="fullname" className="_form-label label">Seu Nome</label>
-                                    <input type="text" className="input" id="fullname" name="fullname" placeholder="Nome" title="Por favor, insira seu nome" required />
+                                    <label htmlFor="fullname" className={styles.label}>Seu Nome</label>
+                                    <input type="text" className={styles.input} id="fullname" name="fullname" placeholder="Nome" title="Por favor, insira seu nome" required />
                                 </div>
                                 <div>
-                                    <label htmlFor="email" className="_form-label label">Seu E-mail</label>
-                                    <input type="text" className="input" id="email" name="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Por favor, corrija o e-mail" required />
+                                    <label htmlFor="email" className={styles.label}>Seu E-mail</label>
+                                    <input type="text" className={styles.input} id="email" name="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Por favor, corrija o e-mail" required />
                                 </div>
                                 <div id="joke">
-                                    <button type="submit" id="_form_1_submit" className="btnCta _submit">quero participar</button>
+                                    <button type="submit" id="_form_1_submit" className={styles.btnCta}>quero participar</button>
                                 </div>
                             </form>
                         </div>

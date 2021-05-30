@@ -13,14 +13,14 @@
 }
 
  .hero {
-     background-image: url('/public/images/home-bg-sun.png'), url('/public/images/home-bg-books.png');
+     background-image: url('/images/home-bg-sun.png'), url('/images/home-bg-books.png');
      background-position-x: -70px, -70px;
      background-position-y: -90px, 15px;
      background-repeat: no-repeat;
      background-size: 125%, 200%;
  }
 
-.logo-container {
+.logoContainer {
      padding-top: 150px;
 }
 
@@ -30,7 +30,7 @@
     margin-right: 23%;
 }
 
-#logo {
+.logo {
     max-width: 95%;
     margin: auto;
     display: block;
@@ -51,11 +51,11 @@ margin-right: 17%;
 
 }
 
-.text-wrap {
+.textWrap {
     display: block;
 }
 
-.first-paragraph {
+.firstParagraph {
     color: #FF6A00;
     font-weight: bold;
     text-align: left;
@@ -67,7 +67,7 @@ margin-right: 17%;
     line-height: 1.3em;
 }
 
-.second-paragraph {
+.secondParagraph {
     color: #fff;
     font-weight: 400;
     text-align: left;
@@ -79,7 +79,7 @@ margin-right: 17%;
 
 }
 
-.third-paragraph {
+.thirdParagraph {
     color: #fff;
     font-weight: 400;
     text-align: left;
@@ -90,7 +90,7 @@ margin-right: 17%;
     letter-spacing: 2%;
 }
 
-.date-btn {
+.dateBtn {
     opacity: 0.85;
     background-color: #248450;
     box-shadow: 20px 20px 10px 10px rgba(0, 0, 0, 0.25) inset;
@@ -103,7 +103,7 @@ margin-right: 17%;
     text-transform: uppercase;
 }
 
-.text-cta {
+.textCta {
     color: #fff;
     font-weight: 300;
     text-align: left;
@@ -139,12 +139,12 @@ margin-right: 17%;
     font-size: 0.8em;
 }
 
-.main-form {
+.mainForm {
     font-size: 1em;
     display: block;
 }
 
-.btn-cta {
+.btnCta {
     text-transform: uppercase;
     font-size: 0.7em;
     font-weight: 900;
@@ -159,17 +159,17 @@ margin-right: 17%;
     cursor: pointer;
 }
 
-.form-wrap{
+.formWrap{
 padding-bottom: 140px;
 }
 
 
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
 
     .hero {
         background-color: #20201D;
-        background-image: url('/public/images/home-bg-man.png'), url('/public/images/home-bg-books-1.png');
+        background-image: url('/images/home-bg-man.png'), url('/images/home-bg-books-1.png');
         background-position-x: 400px, -150px;
         background-position-y: 200px, 50px;
         background-repeat: no-repeat;
