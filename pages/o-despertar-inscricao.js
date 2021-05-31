@@ -10,6 +10,7 @@ export default function getStaticprops() {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>O Despertar</title>
+        
         </Head>
         <div className={styles.body}>
             <section className={ styles.hero }>

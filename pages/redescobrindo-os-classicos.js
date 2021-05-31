@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import styles from '../styles/o-despertar-inscricao.module.css'
-import Image from 'next/image'
+import style from '../styles/redescobrindo-os-classicos.module.css'
+import Hero from '../components/ROC/Hero.js'
 
 export default function getStaticprops() {
   return (
@@ -10,8 +10,11 @@ export default function getStaticprops() {
             <title>Redescobrindo os Clássicos</title>
             {/* <!-- Facebook Pixel Code --> */}
             <script src="/fb-pixel.js"></script>
+          
         </Head>
-        <h1>URL da Landing Page</h1>
+        <div className={ style.virtualBody }>
+          <Hero></Hero>
+        </div>
       </>
 
   )

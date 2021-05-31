@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@font-face { font-family: MonumentExtended; src: url(../public/fonts/MonumentExtended-Regular.otf);}
+@font-face { font-family: Rasputin; src: url(../public/fonts/Rasputin.otf);}
 
+html {
+  font-size: 62.5%;
+}
 
 * {
-  font-family: 'Exo', sans-serif;
-  color: black;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
   margin: 0;
+  box-sizing: border-box;
 }
