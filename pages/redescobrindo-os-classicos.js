@@ -9,7 +9,7 @@ export default function getStaticprops() {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <title>Redescobrindo os Clássicos</title>
             {/* <!-- Facebook Pixel Code --> */}
-            <script src="/fb-pixel.js"></script>
+            <script src="/fscript.js"></script>
           
         </Head>
         <div className={ style.virtualBody }>
