@@ -10,6 +10,8 @@ export default function getStaticprops() {
             <title>Redescobrindo os Clássicos</title>
             {/* <!-- Facebook Pixel Code --> */}
             <script src="/fb-pixel.js"></script>
+            <img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2642886242675122&ev=PageView&noscript=1"/>
         </Head>
         <h1>URL da Landing Page</h1>
       </>
