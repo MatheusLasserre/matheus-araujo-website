@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
-@font-face { font-family: MonumentExtended; src: url(../public/fonts/MonumentExtended-Regular.otf);}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+@font-face { font-family: MonumentExtended; font-weight: 400; src: url(../public/fonts/MonumentExtended-Regular.otf);}
 @font-face { font-family: Rasputin; src: url(../public/fonts/Rasputin.otf);}
 
 html {
