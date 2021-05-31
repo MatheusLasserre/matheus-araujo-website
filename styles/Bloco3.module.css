@@ -1,4 +1,53 @@
+.bloco3Background {
+    position: relative;
+}
+
+.bloco3Background:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/ROC/sleeping.jpg');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    left: 6rem;
+    top: -5rem;
+    opacity: 0.15;
+    position: absolute;
+}
+
+.bloco3Background2 {
+    background-image: linear-gradient(90deg, #0F0F0F 0%, rgba(0, 0, 0, 0) 300%);
+}
+
 .bloco3Wrap {
-    padding: 2rem;
-    background-color: black;
+    width: 28rem;
+    margin: auto;
+}
+
+.listText {
+   
+    padding-top: 3rem;
+    letter-spacing: 0.12rem;
+}
+
+.listText > li {
+    padding: 1rem 0;
+    font-family: MonumentExtended;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: gray;
+    font-family: MonumentExtended;
+
+}
+
+.divider {
+    height: 0.2rem;
+    width: 100%;
+    background-image: linear-gradient(270deg, #EAB25E 0%, rgba(234, 178, 94, 0) 26.08%, rgba(234, 178, 94, 0) 73.76%, #EAB25E 100.13%);    
+    
 }

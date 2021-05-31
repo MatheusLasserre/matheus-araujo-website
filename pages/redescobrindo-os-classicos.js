@@ -3,6 +3,8 @@ import style from '../styles/redescobrindo-os-classicos.module.css'
 import Hero from '../components/ROC/Hero.js'
 import Bloco2 from '../components/ROC/Bloco2.js'
 import Bloco3 from '../components/ROC/Bloco3.js'
+import Bloco4 from '../components/ROC/Bloco4.js'
+
 
 
 export default function getStaticprops() {
@@ -19,6 +21,7 @@ export default function getStaticprops() {
           <Hero></Hero>
           <Bloco2></Bloco2>
           <Bloco3></Bloco3>
+          <Bloco4></Bloco4>
 
         </div>
       </>
