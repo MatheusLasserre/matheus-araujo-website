@@ -22,6 +22,8 @@
 .bloco3Wrap {
     width: 28rem;
     margin: auto;
+    margin-left: 2.5rem;
+    padding-bottom: 2rem;
 }
 
 .listText {
@@ -46,7 +48,7 @@
 }
 
 .divider {
-    height: 0.2rem;
+    height: 0.1rem;
     width: 100%;
     background-image: linear-gradient(270deg, #EAB25E 0%, rgba(234, 178, 94, 0) 26.08%, rgba(234, 178, 94, 0) 73.76%, #EAB25E 100.13%);    
     
