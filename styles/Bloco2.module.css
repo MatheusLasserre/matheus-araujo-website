@@ -43,6 +43,7 @@ background-position-x: 10rem ; */
     padding-right: 3rem;
     z-index: 5;
     line-height: 2rem;
+    letter-spacing: 0.12rem;
 
 }
 
@@ -96,9 +97,9 @@ background-position-x: 10rem ; */
     text-decoration-color: gray;
 }
 
-.bodyTextSpacing {
-    letter-spacing: 0.06rem;
-}
+/* .bodyTextSpacing {
+    letter-spacing: 0.2rem;
+} */
 
 .divider {
     height: 0.1rem;

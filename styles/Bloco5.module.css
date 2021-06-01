@@ -1,0 +1,9 @@
+.bloco5Background {
+    height: 5rem;
+    width: 100%;
+    opacity: 1;
+    background-color: #1E1E1E;
+    display: flex;
+    position: relative;
+
+}

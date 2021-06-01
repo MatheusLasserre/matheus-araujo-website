@@ -1,0 +1,44 @@
+.cardWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 28rem;
+    margin: auto;
+    padding: 4.6rem 3rem;
+    position: relative;
+    margin-bottom: 5.2rem;
+}
+
+.cardWrap:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(130.55deg, rgba(255, 255, 255, 0.2) 6.25%, rgba(255, 255, 255, 0.044) 97.55%);
+    border-radius: 8px;
+    border-style: none;
+    position: absolute;
+    opacity: 1;
+
+}
+
+.cardTitle {
+    font-size: 2rem;
+    font-family: Rasputin;
+    color: #55A9BE;
+    line-height: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.cardText {
+    font-size: 1.4rem;
+    color: #9C9C9C;
+    line-height: 2.2rem;
+    letter-spacing: 0.02rem;
+    margin-top: 1rem;
+}
+
+.cardSymbol {
+    position: absolute;
+    top:calc(100% - 2.5rem);
+}
