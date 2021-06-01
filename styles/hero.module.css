@@ -62,23 +62,26 @@
 
 }
 
-.break {
-    display: block;
-}
+
 
 .blockText {
     font-size: 1.6rem;
     font-family: MonumentExtended;
     letter-spacing: 0.21rem;
     background-color: #396F77;
-    margin: 0.4rem auto;
+    margin: 0.2rem auto;
     /* border-style: none;
     box-shadow: 0rem 0.5rem 0 0 #1E1E1E inset ; */  
 }
 
+.break {
+    display: block;
+    margin-top: 0.5rem;
+}
+
 .heroTextSpacer {
     display: inline-block;
-    margin-bottom: 1rem;
+    margin-bottom: 0.9rem;
 }
 
 .strong {
