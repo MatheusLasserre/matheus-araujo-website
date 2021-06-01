@@ -18,6 +18,13 @@
 
 }
 
+.bloco5Background2 {
+    background-color: #1E1E1E;
+    z-index: 9;
+    width: 100%;
+    position: relative;
+
+}
 .headText {
     font-size: 2.2rem;
     line-height: 2.8rem;
@@ -47,4 +54,40 @@
     text-decoration: underline;
     text-decoration-color: gray;
     font-weight: 600;
+}
+
+.primeiroFilme {
+    z-index: 8;
+    background:#1E1E1E;
+    position: relative;
+}
+
+.segundoFilme {
+    z-index: 7;
+    background:#1E1E1E;
+    position: relative;
+}
+
+.terceiroFilme {
+    z-index: 6;
+    background:#1E1E1E;
+    position: relative;
+}
+
+.quartoFilme {
+    z-index: 5;
+    background:#1E1E1E;
+    position: relative;
+}
+
+.quintoFilme {
+    z-index: 4;
+    background:#1E1E1E;
+    position: relative;
+}
+
+.sextoFilme {
+    z-index: 3;
+    background:#1E1E1E;
+    position: relative;
 }

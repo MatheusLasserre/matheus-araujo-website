@@ -1,0 +1,193 @@
+.movieBackground {
+    position: relative;
+    background-color: black;
+}
+
+.tempoDeDespertar:before {
+    width: 110%;
+    height: 150%;
+    background-image: url("/images/ROC/AULAS/FILME-1.jpg"), radial-gradient(48.29% 48.29% at 65.87% 32.15%, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 90%);
+    background-size: 140%;
+    left: 0rem 0;
+    top:-12rem;
+}
+
+.matrix:before {
+    background-image: url("/images/ROC/AULAS/FILME-2.jpg"), radial-gradient(48.29% 48.29% at 65.87% 32.15%, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 90%);
+    background-size: 160%;
+    width: 160%;
+    height: 150%;
+    left: -19rem;
+    top:0rem;
+}
+
+.taxiDriver:before {
+    background-image: url("/images/ROC/AULAS/FILME-3.jpg"), radial-gradient(48.29% 48.29% at 65.87% 32.15%, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 90%);
+    background-size: 140%;
+    width: 110%;
+    height: 150%;
+    left: -2rem;
+    top:-10rem;
+}
+.osSuspeitos:before {
+    background-image: url("/images/ROC/AULAS/FILME-4.jpg"), radial-gradient(48.29% 48.29% at 65.87% 32.15%, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 90%);
+    background-size: 160%;
+    width: 120%;
+    height: 150%;
+    left: -5rem;
+    top:-1rem;
+}
+
+.osSuspeitos {
+    margin-bottom: -1.5rem;
+}
+
+.felicidade:before {
+    background-image: url("/images/ROC/AULAS/FILME-5.jpg"), radial-gradient(48.29% 48.29% at 65.87% 32.15%, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 90%);
+    background-size: 100%;
+    width: 150%;
+    height: 150%;
+    left: -6rem;
+    top:0rem;
+}
+.reiLeao:before {
+    background-image: url("/images/ROC/AULAS/FILME-6.jpg"), radial-gradient(48.29% 48.29% at 65.87% 32.15%, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 90%);
+    background-size: 120%;
+    width: 110%;
+    height: 150%;
+    left: 1rem;
+    top:0rem;
+}
+
+
+.movieBackground:before {
+    content: "";
+    /* background-image: url("/images/ROC/AULAS/FILME-1.jpg"), radial-gradient(48.29% 48.29% at 65.87% 32.15%, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 90%); */
+    background-repeat: no-repeat no-repeat;
+    background-blend-mode: multiply;
+    position: absolute;
+    opacity: 0.3;
+    overflow: hidden;
+}
+
+/* .tempoDeDespertar:before {
+    background-image: url("/images/ROC/AULAS/FILME-1.jpg"), radial-gradient(48.29% 48.29% at 65.87% 32.15%, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 90%);
+} */
+
+/* .movieBackground2 {
+    background-image: radial-gradient(48.29% 48.29% at 87.87% 32.15%, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 1) 100%);
+
+}
+
+.movieBackground3 {
+    background: black;
+    background-blend-mode: lighten;
+    /* background-image:linear-gradient(90deg, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);; */
+
+/* } */
+
+.contentWrap {
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 2.6rem;
+    margin: auto;
+    position: relative;
+
+
+}
+
+
+.classMonth {
+    font-size: 2.2rem;
+    font-family: MonumentExtended;
+    line-height: 1.8rem;
+    color: #414141;
+    letter-spacing: 0.1rem;
+    text-align: left;
+}
+
+.classTheme {
+    color: transparent;   
+    background-image: linear-gradient(93.87deg, #EAB25E -3.33%, #F4E2C7 40.78%, #EAB25E 83.23%);
+    background-clip: text;
+    font-family: Rasputin;
+    font-weight: 400;
+    font-size: 2.2rem;
+    letter-spacing: 0.26rem;
+    line-height: 2.8rem;
+    margin: 1.2rem 0;
+    text-align: left;
+    padding-right: 2.6rem;
+}
+
+.movieText {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.1rem;
+    color: #DADADA;
+    margin: 1rem 0;
+    text-align: left;
+    padding-right: 10rem;
+
+}
+
+.classInfoWrap {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+
+}
+
+.classBookWrap {
+    width: 8.0rem;
+    height: 11.8rem;
+    position: absolute;
+    padding-top: 2.3rem;
+    z-index: 99;
+
+
+}
+
+.classTitlesWrap {
+    padding-left: 10rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.3rem;
+
+}
+
+.classMovieTitle, .classBookTitle {
+    font-size: 1.4rem;
+    font-family: MonumentExtended;
+    line-height: 1.8rem;
+    color: #414141;
+    letter-spacing: 0.1rem;
+    text-align: right;
+
+}
+
+
+.classMovieName, .classBookName {
+    font-size: 1.4rem;
+    font-family: MonumentExtended;
+    line-height: 1.8rem;
+    color: #E5E5E5;
+    text-align: right;
+
+
+
+}
+
+.classMovieTitle, .classMovieName {
+    margin-bottom: 1rem;
+}
+
+.contentGrayBar {
+    padding-top: 4rem;
+    background: #1e1e1e;
+    position: relative;
+}
