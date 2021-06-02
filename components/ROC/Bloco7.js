@@ -44,7 +44,9 @@ function Bloco7() {
                 <p className={B7Style.warrantyDescription}>Se o curso não lhe agregar em nada, lhe dou <span className={B7Style.warrantyUnderline}>15 dias de garantia incondicional</span>, para, sem compromisso, você pegar o seu dinheiro de volta.</p>
                 <p className={B7Style.attention}>ATENÇÃO:</p>
                 <p className={B7Style.attentionDescription}>ESTE VALOR ESTARÁ DISPONÍVEL <span className={B7Style.attentionDescriptionUnderline}>POR TEMPO LIMITADO DE 7 DIAS.</span></p>
-                <Button></Button>
+                <Button
+                    txt="QUERO GARANTIR A MINHA VAGA"
+                />
                 <div className={B7Style.decorationSymbol}>
                         <Image
                             src="/images/ROC/ROC-SMB-3.png"

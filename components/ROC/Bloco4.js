@@ -40,7 +40,9 @@ function Bloco4() {
                         />
                     </div>
                     <p className={B4Style.goldGradient + ' ' + B4Style.secondHead}>O <span className={B4Style.goldUnderline}>REDESCOBRINDO </span><span className={B4Style.goldUnderline}>OS CLÁSSICOS</span> É A CHAVE PARA VOCÊ TER ACESSO A TODO ESSE MUNDO DE POSSIBILIDADES QUE OS CLÁSSICOS TE OFERECEM.</p>
-                    <Button/>
+                    <Button
+                        txt="QUERO CONHECER O PODER DOS CLÁSSICOS"
+                    />
                     <div className={B4Style.decorationSymbol}><Image
                             src="/images/ROC/ROC-SMB-3.png"
                             alt="Decoration Symbol"

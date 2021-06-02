@@ -55,7 +55,9 @@ function Bloco9() {
                     answer="O acesso às aulas e a todos os bônus será vitalício – apenas para os que entrarem nessa primeira turma."
                 />
                 <div className={B9Style.spacer}></div>
-                <Button></Button>
+                <Button
+                    txt="QUERO GARANTIR A MINHA VAGA"
+                />
                 <div className={B9Style.spacer}></div>
             </div>
             <div className={B9Style.contentWrap2}>
@@ -64,7 +66,9 @@ function Bloco9() {
                 </div>
                 <p className={B9Style.finalText}>Matheus Araújo é escritor, professor de Literatura, com mais de 5 (cinco) anos de experiência no ensino literário e foi aluno da Oficina Literária de Raimundo Carrero, uma das mais importantes oficinas literárias do Brasil.</p>
                 <p className={B9Style.finalText2}>Criador do Curso Online de Literatura, conta com mais de 150 alunos, atuando diariamente com escrita literária, leitura dos clássicos, mentorias e consultorias para aspirantes a escritores, professores de literatura e toda e qualquer pessoa que queira se aprofundar no mundo dos clássicos.</p>
-                <Button></Button>
+                <Button
+                    txt="QUERO GARANTIR A MINHA VAGA"
+                />
             </div>
 
         </div>
