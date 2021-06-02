@@ -1,0 +1,86 @@
+.contentWrap {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 28rem;
+    margin: auto;
+    position: relative;
+}
+
+
+.testimonialBox {
+    background: linear-gradient(142.95deg, rgba(196, 196, 196, 0.15) 0%, rgba(0, 0, 0, 0) 98.73%);
+    border-radius: 13px;
+    border: 1px solid #eab25e52;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    margin: 1.5rem 1.5rem;
+    position: relative;
+}
+
+.quotesWrap {
+    width: 5.4rem;
+    height: 3.3rem;
+
+}
+
+.goldHead {
+    color: transparent;   
+    background-image: linear-gradient(93.87deg, #EAB25E -3.33%, #F4E2C7 40.78%, #EAB25E 83.23%);
+    background-clip: text;
+    font-family: Rasputin;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.3rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+
+}
+
+/* .testimonialNameBox {
+
+} */
+
+.testimonialName {
+    font-family: MonumentExtended;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: #E5E5E5;
+    line-height: 2rem;
+    margin: 1rem auto;
+}
+
+.testimonialText {
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.1rem;
+    color: #FFFFFF;
+    font-weight: 400;
+
+}
+
+.decorationSymbol {
+    width: 5.2rem;
+    height: 5.2rem;
+    align-self: center;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: -2.6rem;
+    z-index: 99;
+    position: relative;
+    
+}
+
+.divider {
+    height: 0.1rem;
+    width: 100%;
+    background-image: linear-gradient(270deg, #EAB25E 0%, rgba(234, 178, 94, 0) 26.08%, rgba(234, 178, 94, 0) 73.76%, #EAB25E 100.13%);    
+    
+}
