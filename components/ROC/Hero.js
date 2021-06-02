@@ -7,6 +7,7 @@ import Button from '../../components/ROC/Button'
 function Hero() {
     return (
         <div>
+            <div className={heroStyle.heroBackground4}>
             <div className={heroStyle.heroBackground}>
             <div className={heroStyle.heroBackground2}>
             <div className={heroStyle.heroBackground3}>
@@ -36,6 +37,7 @@ function Hero() {
                         />
                         </div>
                         </div> 
+            </div>  
             </div>  
             </div>
             </div>

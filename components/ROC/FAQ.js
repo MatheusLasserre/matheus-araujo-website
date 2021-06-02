@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState} from 'react'
 import Fstyle from '../../styles/FAQ.module.css'
 
 function FAQ(props) {
+
+    // const [class, setClass] = useState()
+
     return (
         <div>
             <div className={Fstyle.questionWrap}>

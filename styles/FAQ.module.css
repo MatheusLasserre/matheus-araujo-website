@@ -5,6 +5,8 @@
     padding: 1.3rem 4rem 1.3rem 1.5rem;
     margin: auto;
     width: 29.5rem;
+    margin-bottom: -0.1rem;
+
     
 
 }
@@ -21,7 +23,7 @@
     background: linear-gradient(93.15deg, rgba(250, 250, 250, 0.16) 3.79%, rgba(196, 196, 196, 0) 96.68%);
     padding: 1.3rem 4rem 2.7rem 1.5rem;
     width: 29.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
     display: none;
 
 }

@@ -29,12 +29,12 @@ function Bloco5() {
                             <div className={B5Style.segundoFilme}>
                                 <Filmes
                                     month="Agosto:"
-                                    theme="A Jornada do Autoconhecimento"
-                                    text="Aqui a grande descoberta será pessoal, de si para si. A necessidade de se conhecer será evidenciada pelos benefícios que o autoconhecimento poderá trazer para sua vida."
-                                    movie="Matrix"
-                                    book="Alice no País das Maravilhas"
-                                    src="/images/ROC/AULAS/LIVRO-2.jpg"
-                                    backgroundsrc={FsStyle.matrix}
+                                    theme="A Busca da Felicidade"
+                                    text="A felicidade é um dos maiores mistérios da humanidade. Você entenderá, a partir de dois clássicos, um da cinema e um da literatura, o que é ter uma vida feliz."
+                                    movie="Felicidade não se compra"
+                                    book="Um coração simples"
+                                    src="/images/ROC/AULAS/LIVRO-5.jpg"
+                                    backgroundsrc={FsStyle.felicidade}
                                 />
                             </div>
                             <div className={B5Style.terceiroFilme}>
@@ -63,11 +63,11 @@ function Bloco5() {
                                 <Filmes
                                     month="Novembro:"
                                     theme="Os Problemas dos Relacionamentos"
-                                    text="Em uma era onde os relacionamentos são cada vez mais efêmeros e instantaneamente vazios, você entenderá como é possível aprender, através da literatura, a lidar com os principais problemas existentes em um relacionamento."
-                                    movie="Felicidade não se compra"
-                                    book="Um coração simples"
-                                    src="/images/ROC/AULAS/LIVRO-5.jpg"
-                                    backgroundsrc={FsStyle.felicidade}
+                                    text="Em uma era onde os relacionamentos são cada vez mais efêmeros e vazios, você entenderá como é possível aprender, através da literatura, a lidar com os principais problemas existentes em um relacionamento conjugal ou familiar."
+                                    movie="Pequena Miss Sunshine"
+                                    book="Laços de Família"
+                                    src="/images/ROC/AULAS/LIVRO-2.jpg"
+                                    backgroundsrc={FsStyle.matrix}
                                 />
                             </div>
                             <div className={B5Style.sextoFilme}>

@@ -55,7 +55,7 @@ background-position-x: 10rem ; */
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 2.5rem;
-    margin: 1.2rem 0;
+    margin: 1.2rem 0 0.5rem 0;
     z-index: 5;
 }
 
@@ -89,6 +89,10 @@ background-position-x: 10rem ; */
 
 .black {
     font-weight: 900;
+}
+
+.textSpacing {
+    margin-bottom: 1.5rem;
 }
 
 .underline {

@@ -12,7 +12,7 @@ function rocObrigadoBoleto() {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>Sua inscrição foi confirmada!</title>
                 {/* <!-- Facebook Pixel Code --> */}
-                <script src="/fscript.js"></script>       
+                <script src="/fscript-2.js"></script>       
             </Head>
             <div className={heroStyle.heroBackground}>
             <div className={heroStyle.heroBackground2}>
