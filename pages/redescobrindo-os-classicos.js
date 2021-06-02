@@ -5,6 +5,9 @@ import Bloco2 from '../components/ROC/Bloco2.js'
 import Bloco3 from '../components/ROC/Bloco3.js'
 import Bloco4 from '../components/ROC/Bloco4.js'
 import Bloco5 from '../components/ROC/Bloco5.js'
+import Bloco6 from '../components/ROC/Bloco6.js'
+import Bloco7 from '../components/ROC/Bloco7.js'
+
 
 
 
@@ -24,6 +27,8 @@ export default function getStaticprops() {
           <Bloco3></Bloco3>
           <Bloco4></Bloco4>
           <Bloco5></Bloco5>
+          <Bloco6></Bloco6>
+          <Bloco7></Bloco7>
           
         </div>
       </>
