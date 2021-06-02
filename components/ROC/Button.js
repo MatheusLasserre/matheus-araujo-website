@@ -6,8 +6,8 @@ function Button() {
 
     const ActionLink = () => {
         
-        //   location.assign('#');
-        alert('Manda o link do curso, porra')
+          location.assign('https://matheus-araujo.memberkit.com.br/checkout/xB40wb');
+        
         }
     
 
