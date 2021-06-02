@@ -14,6 +14,8 @@ function rocObrigadoBoleto() {
                 {/* <!-- Facebook Pixel Code --> */}
                 <script src="/fscript-2.js"></script>       
             </Head>
+            <div className={robStyle.virtualBody}>
+            <div className={heroStyle.heroBackground4}>
             <div className={heroStyle.heroBackground}>
             <div className={heroStyle.heroBackground2}>
             <div className={heroStyle.heroBackground3}>
@@ -34,6 +36,8 @@ function rocObrigadoBoleto() {
                         
                        
                     </div> 
+            </div>  
+            </div>  
             </div>  
             </div>
             </div>
