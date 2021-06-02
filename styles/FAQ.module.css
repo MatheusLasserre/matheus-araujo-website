@@ -25,7 +25,6 @@
     width: 29.5rem;
     margin-bottom: 0rem;
     display: none;
-
 }
 
 .answer {
@@ -34,6 +33,12 @@
     letter-spacing: 0.05em;
     color: #E5E5E5;
     /* display: none; */
+}
+
+@keyframes slideDown {
+    0% {
+        height: 0rem;
+    }
 }
 
 .show {

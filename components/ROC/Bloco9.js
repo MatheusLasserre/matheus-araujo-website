@@ -24,35 +24,35 @@ function Bloco9() {
                 />
                 <FAQ
                     question="Quando as aulas começam?"
-                    answer="Assim que a inscrição for feita, você receberá automaticamente o acesso ao curso por e-mail – tendo acesso instantaneamente ao Minicurso Como ler Literatura + Aulas integrais d’O Despertar e a todos os e-books"
+                    answer="Nossa primeira aula acontecerá no dia 10 de Julho, mas, como dito antes, você já terá acesso instantaneamente ao Minicurso Como ler Literatura + Aulas integrais d’O Despertar e a todos os e-books"
                 />
                 <FAQ
                     question="Como funcionam as aulas?"
-                    answer="Assim que a inscrição for feita, você receberá automaticamente o acesso ao curso por e-mail – tendo acesso instantaneamente ao Minicurso Como ler Literatura + Aulas integrais d’O Despertar e a todos os e-books"
+                    answer="As aulas acontecerão quinzenalmente, às quintas-feiras, 20h. Elas serão transmitidas ao vivo, com interação dos alunos, e sua gravação será disponibilizada na plataforma exclusiva do curso."
                 />
                 <FAQ
                     question="O Redescobrindo os Clássicos é para mim?"
-                    answer="Assim que a inscrição for feita, você receberá automaticamente o acesso ao curso por e-mail – tendo acesso instantaneamente ao Minicurso Como ler Literatura + Aulas integrais d’O Despertar e a todos os e-books"
+                    answer="Sim, o Redescobrindo os Clássicos é para toda e qualquer pessoa, iniciante ou leitor avançado, que quer entender o poder dos clássicos e como extrair todos as transformações que eles podem proporcionar em sua vida"
                 />
                 <FAQ
                     question="Terei contato com outros membros que assinarem o curso?"
-                    answer="Assim que a inscrição for feita, você receberá automaticamente o acesso ao curso por e-mail – tendo acesso instantaneamente ao Minicurso Como ler Literatura + Aulas integrais d’O Despertar e a todos os e-books"
+                    answer="Sim, através de um grupo de Telegram onde discutiremos os filmes e livros de cada mês."
                 />
                 <FAQ
                     question="Poderei assistir as aulas pelo celular?"
-                    answer="Assim que a inscrição for feita, você receberá automaticamente o acesso ao curso por e-mail – tendo acesso instantaneamente ao Minicurso Como ler Literatura + Aulas integrais d’O Despertar e a todos os e-books"
+                    answer="Sim, seja ao vivo ou através do aplicativo da plataforma onde será disponibilizado o curso."
                 />
                 <FAQ
                     question="Tem garantia? De quanto tempo?"
-                    answer="Assim que a inscrição for feita, você receberá automaticamente o acesso ao curso por e-mail – tendo acesso instantaneamente ao Minicurso Como ler Literatura + Aulas integrais d’O Despertar e a todos os e-books"
+                    answer="Sim, de 15 (quinze) dias, com direito à primeira aula."
                 />
                 <FAQ
                     question="Quais são as formas de pagamento disponíveis?"
-                    answer="Assim que a inscrição for feita, você receberá automaticamente o acesso ao curso por e-mail – tendo acesso instantaneamente ao Minicurso Como ler Literatura + Aulas integrais d’O Despertar e a todos os e-books"
+                    answer="Temos todas as formas de pagamento possíveis. Você poderá pagar por cartão de crédito, PIX, Boleto Bancário ou até mesmo dois cartões de crédito."
                 />
                 <FAQ
                     question="Quanto tempo terei acesso?"
-                    answer="Assim que a inscrição for feita, você receberá automaticamente o acesso ao curso por e-mail – tendo acesso instantaneamente ao Minicurso Como ler Literatura + Aulas integrais d’O Despertar e a todos os e-books"
+                    answer="O acesso às aulas e a todos os bônus será vitalício – apenas para os que entrarem nessa primeira turma."
                 />
                 <div className={B9Style.spacer}></div>
                 <Button></Button>
