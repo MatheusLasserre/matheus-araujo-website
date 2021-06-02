@@ -63,7 +63,7 @@ function Bloco6() {
                                 <p className={B6Style.itemTitle}>MINICURSO</p>
                                 <div className={B6Style.itemImage}>
                                     <Image
-                                        src="/images/ROC/BONUS-1.png"
+                                        src="/images/ROC/BONUS-4.png"
                                         width={242}
                                         height={233}
                                         className={B6Style.itemImage}

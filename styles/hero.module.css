@@ -109,3 +109,46 @@
     margin-top: 4rem;
     margin-bottom: -3.6rem;
 }
+
+@media only screen and (min-width: 770px) {
+    .heroWrap {
+      width: 77rem;
+      align-items: flex-start;
+    }
+
+    .logo {
+        align-self: center;
+        justify-self: center;
+        margin-bottom: 5rem;
+        margin-right: 0rem;
+        margin-left: 33rem;
+    }
+
+    .heroHeadline {
+        font-size: 2.8rem;
+        line-height: 3.4rem;
+        padding-right: 17.8rem;
+        text-align: left;
+
+    }
+
+    .goldGradient {
+        padding-right: 0;
+    }
+
+    .firstParagraph {
+        padding-right: 20.8rem;
+        font-size: 2.2rem;
+        margin: 1rem auto;
+        line-height: 2.4rem;
+        margin-bottom: 4rem;
+    }
+
+    .blockText {
+        font-size:2.6rem ;
+        margin: 1rem auto;
+    }
+
+
+
+  }

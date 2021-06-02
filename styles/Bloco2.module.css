@@ -111,3 +111,39 @@ background-position-x: 10rem ; */
     background-image: linear-gradient(270deg, #EAB25E 0%, rgba(234, 178, 94, 0) 26.08%, rgba(234, 178, 94, 0) 73.76%, #EAB25E 100.13%);    
     
 }
+
+@media only screen and (min-width: 770px) {
+
+    .bloco2Wrap {
+        width: 77rem;
+        padding-right: 21rem;
+        align-items: flex-start;
+        justify-items: flex-start;
+        padding-bottom: 5rem;
+    }
+
+    .lightText {
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+        text-align: left;
+    }
+
+    .heavyText {
+        font-size: 2.6rem;
+        line-height: 3rem;
+        padding-right: 8rem;
+        margin: 1.5rem auto;
+    }
+
+    .bodyText {
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+
+    .goldGradient {
+        font-size: 2.6rem;
+        line-height: 3.4rem;
+        letter-spacing: 0.21rem;
+    }
+
+}

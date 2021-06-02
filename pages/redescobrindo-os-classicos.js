@@ -22,6 +22,7 @@ export default function getStaticprops() {
             <title>Redescobrindo os Clássicos</title>
             {/* <!-- Facebook Pixel Code --> */}
             <script src="/fscript.js"></script>
+        <link rel="icon" href="/vercel.png" />
           
         </Head>
         <div className={ style.virtualBody }>
