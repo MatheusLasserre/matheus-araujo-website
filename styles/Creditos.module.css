@@ -8,7 +8,6 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding-bottom: 0.5rem;
 }
 
 .text {
@@ -17,15 +16,6 @@
     color: #BFBFBF;
     letter-spacing: 0.05rem;
     text-align: center;
-    margin: 0rem auto;
-    padding-top: 0.2rem;
+    margin: 0.2rem auto;
 }
 
-.text2 {
-    font-size: 0.6rem;
-    font-weight: 400;
-    color: #BFBFBF;
-    letter-spacing: 0.05rem;
-    text-align: center;
-    margin: -0.2rem auto;
-}

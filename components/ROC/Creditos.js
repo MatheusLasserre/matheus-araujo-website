@@ -6,8 +6,7 @@ function Creditos() {
         <div>
             <div className={CrStyle.background}>
                 <div className={CrStyle.contentWrap}>
-                    <p className={CrStyle.text}>© 2021 Matheus Araujo - Todos os direitos reservados</p>
-                    <p className={CrStyle.text2}>feito por @matheus.lasserre</p>
+                    <p className={CrStyle.text}>© 2021 Matheus Araujo - Todos os direitos reservados - feito por @matheus.lasserre</p>
                 </div>
             </div>
         </div>
