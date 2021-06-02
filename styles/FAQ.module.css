@@ -33,7 +33,7 @@
     line-height: 18px;
     letter-spacing: 0.05em;
     color: #E5E5E5;
-    display: none;
+    /* display: none; */
 }
 
 .show {
