@@ -1,0 +1,77 @@
+
+
+.floating {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px 1px rgb(0, 0, 0);
+    background-color:transparent;
+}
+
+.text {
+    width: 15rem;
+    font-size: 1rem;
+    text-align: right;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+    margin-bottom: 0.3rem;
+    opacity: 0;
+    animation-name: textFade;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    transition: opacity 1s;
+    padding-right: 0.5rem;
+
+}
+
+.iconWrap:hover p {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.iconWrap:active p {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+
+
+
+.iconWrap {
+    width: 10rem;
+    height: 10rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 99999;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+@keyframes textFade {
+    0% {
+        margin-right: -15rem;
+        opacity: 1;
+    }
+
+    20% {
+        margin-right: 0;
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

@@ -10,6 +10,7 @@ import Bloco7 from '../components/ROC/Bloco7.js'
 import Bloco8 from '../components/ROC/Bloco8.js'
 import Bloco9 from '../components/ROC/Bloco9.js'
 import Creditos from '../components/ROC/Creditos.js'
+import FloatingIcon from '../components/ROC/FloatingIcon'
 
 
 
@@ -26,6 +27,7 @@ export default function getStaticprops() {
           
         </Head>
         <div className={ style.virtualBody }>
+          <FloatingIcon></FloatingIcon>
           <Hero></Hero>
           <Bloco2></Bloco2>
           <Bloco3></Bloco3>
