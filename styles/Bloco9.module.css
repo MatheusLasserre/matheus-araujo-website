@@ -89,3 +89,55 @@
     color: #FFFFFF;
     margin: 0.5rem auto 3rem auto;
 }
+
+@media only screen and (min-width: 770px) {
+
+   
+
+
+   .flexContainer {
+       display: flex;
+       flex-direction: row;
+       width: 77rem;
+       margin: auto;
+       align-items: center;
+       justify-items: center;
+       justify-content: center;
+   } 
+
+   .contentWrap, .contentWrap2 {
+    width: 50%;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 12rem;
+    }
+
+    .whoIs {
+        font-size: 2.8rem;
+    }
+
+    .questionWrap {
+        position: absolute;
+        top: 8rem;
+        left: 28rem;
+        width: 6rem;
+    }
+
+    .contentWrap2 {
+        margin-top: -5rem;
+    }
+
+    .finalText2 {
+        margin-bottom: 6rem;
+    }
+
+    .desktopHide {
+        display: none;
+    }
+
+
+
+
+
+
+}

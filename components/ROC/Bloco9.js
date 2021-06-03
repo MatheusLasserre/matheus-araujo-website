@@ -7,13 +7,14 @@ import Button from './Button'
 function Bloco9() {
     return (
         <div>
+            <div className={B9Style.flexContainer}>
             <div className={B9Style.contentWrap}>
                 <div className={B9Style.questionWrap}>
                     <Image
                         src="/images/ROC/question.svg"
                         alt="Decoration Symbol"
-                        width={42}
-                        height={45}
+                        width={420}
+                        height={450}
                         className={B9Style.questionWrap}
                     />
                 </div>
@@ -55,9 +56,11 @@ function Bloco9() {
                     answer="O acesso às aulas e a todos os bônus será vitalício – apenas para os que entrarem nessa primeira turma."
                 />
                 <div className={B9Style.spacer}></div>
+                <div className={B9Style.desktopHide}>
                 <Button
                     txt="QUERO GARANTIR A MINHA VAGA"
                 />
+                </div>
                 <div className={B9Style.spacer}></div>
             </div>
             <div className={B9Style.contentWrap2}>
@@ -70,7 +73,7 @@ function Bloco9() {
                     txt="QUERO GARANTIR A MINHA VAGA"
                 />
             </div>
-
+            </div>
         </div>
     )
 }
