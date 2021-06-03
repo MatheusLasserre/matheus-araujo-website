@@ -59,6 +59,7 @@
     font-family: MonumentExtended;
     margin-bottom: 2rem;
     font-weight: 400;
+    display: block;
 }
 
 .goldGradient {
@@ -67,11 +68,11 @@
     background-clip: text;
 }
 
-.iphoneGlitch {
+/* .iphoneGlitch {
     margin: 0;
     padding: 0;
     display: contents;
-}
+} */
 
 .firstParagraph {
     font-size: 1.4rem;
