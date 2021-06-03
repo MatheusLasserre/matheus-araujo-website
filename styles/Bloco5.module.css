@@ -91,3 +91,43 @@
     background:#1E1E1E;
     position: relative;
 }
+
+@media only screen and (min-width: 770px) {
+    .bloco5Background {
+        width: 77rem;
+
+    }
+
+    .headText {
+        font-size: 2.8rem;
+        line-height: 3.6rem;
+        text-align: left;
+        margin-left: 0;
+        padding-right: 30rem;
+    }
+
+    .bodyText {
+        font-size: 2rem;
+        line-height: 2.8rem;
+        padding-right: 17rem;
+    }
+
+    .FilmesWrap {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 77rem;
+        margin: auto;
+        overflow: hidden;
+        column-gap: 2rem;
+    }
+
+    .primeiroFilme, .segundoFilme, .terceiroFilme, .quartoFilme, .quintoFilme, .sextoFilme {
+        width: 48%;
+        overflow: hidden;
+    }
+
+
+}
