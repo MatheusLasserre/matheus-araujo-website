@@ -52,12 +52,12 @@
 }
 
 .heroHeadline {
-    font-size: 1.52rem;
+    font-size: 1.5rem;
     line-height: 1.9rem;
     letter-spacing: 0.21rem;
     text-align: left;
     font-family: MonumentExtended;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     font-weight: 400;
     display: block;
 }
@@ -69,9 +69,9 @@
 }
 
 /* .iphoneGlitch {
-    margin: 0;
+    display: inline-block;
     padding: 0;
-    display: contents;
+    margin: 0;
 } */
 
 .firstParagraph {
@@ -80,6 +80,7 @@
     margin-bottom: 4rem;
     padding-right: 5rem;
     line-height: 2rem;
+    margin-top: 2rem;
 
 }
 
