@@ -13,7 +13,7 @@ function Button(props) {
     
 
     return (
-        <div> <Link href="https://matheus-araujo.memberkit.com.br/checkout/xB40wb">
+        <div> <Link href="https://matheus-araujo.memberkit.com.br/checkout/xVWyDQ">
             <button id="btn-roc-cta" className={buttonStyle.btnCta}>{props.txt}</button>
             </Link>
         </div>
