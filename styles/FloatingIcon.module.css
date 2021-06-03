@@ -58,11 +58,11 @@
 
 @keyframes textFade {
     0% {
-        margin-right: -15rem;
+        margin-right: -20rem;
         opacity: 1;
     }
 
-    20% {
+    35% {
         margin-right: 0;
         opacity: 1;
     }
