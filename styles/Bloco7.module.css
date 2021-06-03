@@ -120,7 +120,14 @@
 
 .warranty {
     margin: 1.5rem auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
 }
+
+
 
 .warrantyDescription {
     font-size: 1.2rem;
@@ -192,6 +199,65 @@
     width: 100%;
     background-image: linear-gradient(270deg, #EAB25E 0%, rgba(234, 178, 94, 0) 26.08%, rgba(234, 178, 94, 0) 73.76%, #EAB25E 100.13%);    
     
+}
+
+@media only screen and (min-width: 770px) {
+
+    .contentWrap {
+        flex-direction: row;
+        width: 77rem;
+        align-content: center;
+        align-items: flex-start;
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+
+    .flexItemLogo {
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .flexItem2 {
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .gradientBox {
+        padding-right: 2rem;
+        padding-left: 4rem;
+        width: 27rem;
+    }
+
+    .listItem {
+        font-size: 1.2rem;
+        margin: 2.5rem auto;
+    }
+
+    .warranty{
+        width: 15%;
+        position: absolute;
+        top: 55rem;
+        left: 25rem;
+        transform: rotate(340deg);
+    }
+    
+    .decorationSymbol {
+        position: absolute;
+        top: 93%;
+        left: 47%;
+    }
+
+
 }
 
 

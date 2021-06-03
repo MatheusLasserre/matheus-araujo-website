@@ -7,6 +7,7 @@ function Bloco7() {
     return (
         <div>
             <div className={B7Style.contentWrap}>
+                <div className={B7Style.flexItemLogo}>
                 <div className={B7Style.logo}>
                     <Image
                         src="/images/ROC/ROC-LOGO-3-4.png"
@@ -27,7 +28,10 @@ function Bloco7() {
                             <li className={B7Style.listItem}>Sorteio de 2 (duas) Mentorias Personalizadas entre os 100 primeiros alunos</li>
                         </ul>
                     </div>
-                
+                    </div>
+                    
+                    
+                <div className={B7Style.flexItem2}>
                 <p className={B7Style.oldPrice}> de R$1.342,60</p>
                 <p className={B7Style.forJust}>por apenas</p>
                 <p className={B7Style.actualPrice}><span className={B7Style.actualPricePrefix}>12x DE</span> R$20,58</p>
@@ -47,6 +51,7 @@ function Bloco7() {
                 <Button
                     txt="QUERO GARANTIR A MINHA VAGA"
                 />
+                </div>
                 <div className={B7Style.decorationSymbol}>
                         <Image
                             src="/images/ROC/ROC-SMB-3.png"
