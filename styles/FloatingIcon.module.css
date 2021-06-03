@@ -20,7 +20,7 @@
     margin-bottom: 0.3rem;
     opacity: 0;
     animation-name: textFade;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-timing-function: ease;
     transition: opacity 1s;
     padding-right: 0.5rem;
@@ -62,7 +62,7 @@
         opacity: 1;
     }
 
-    35% {
+    50% {
         margin-right: 0;
         opacity: 1;
     }
