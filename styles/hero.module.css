@@ -67,6 +67,12 @@
     background-clip: text;
 }
 
+.iphoneGlitch {
+    margin: 0;
+    padding: 0;
+    display: contents;
+}
+
 .firstParagraph {
     font-size: 1.4rem;
     text-align: left;

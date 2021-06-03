@@ -22,7 +22,7 @@ function Hero() {
                                 className={heroStyle.logo}
                             />
                         </div>
-                        <h1 className={heroStyle.heroHeadline}>DOMINE A ARTE DE <span className={heroStyle.goldGradient + ' ' +  heroStyle.heroHeadline}>LER E ENTENDER OS CLÁSSICOS</span> E APRENDA A APLICAR TODOS OS SEUS ENSINAMENTOS NO DIA A DIA.</h1>
+                        <h1 className={heroStyle.heroHeadline}>DOMINE A ARTE DE <span className={heroStyle.goldGradient + ' ' +  heroStyle.heroHeadline + ' ' + heroStyle.iPhoneGlitch}>LER E ENTENDER OS CLÁSSICOS</span> E APRENDA A APLICAR TODOS OS SEUS ENSINAMENTOS NO DIA A DIA.</h1>
                         <p className={heroStyle.firstParagraph}>Este é o melhor caminho possível para você, <span className={heroStyle.blockText + ' ' + heroStyle.break}> Iniciante ou </span><span className={heroStyle.blockText + ' ' + heroStyle.heroTextSpacer}>&nbsp;leitor avançado </span>redescobrir e entender o <span className={heroStyle.strong}>poder dos clássicos</span> e extrair todas as transformações que eles podem proporcionar em sua vida.
                         </p>
                         <Button

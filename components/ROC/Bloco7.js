@@ -34,7 +34,7 @@ function Bloco7() {
                 <div className={B7Style.flexItem2}>
                 <p className={B7Style.oldPrice}> de R$1.342,60</p>
                 <p className={B7Style.forJust}>por apenas</p>
-                <p className={B7Style.actualPrice}><span className={B7Style.actualPricePrefix}>12x DE</span> R$20,58</p>
+                <p className={B7Style.actualPrice}><span className={B7Style.actualPricePrefix}>12x DE</span> R$24,66</p>
                 <p className={B7Style.actualPriceOnCashPreFix}>ou <span className={B7Style.actualPriceOnCash}>R$247,00</span> à vista</p>
                 <div className={B7Style.warranty}>
                     <Image
