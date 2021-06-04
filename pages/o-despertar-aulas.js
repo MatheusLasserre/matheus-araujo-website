@@ -66,6 +66,7 @@ function oDespertarAulas() {
 
             </div>
             </div>
+            <div className={odaStyle.spacer}></div>
 
             </div>
         </div>

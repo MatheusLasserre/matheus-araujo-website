@@ -103,11 +103,12 @@
         align-items: center;
         justify-content: center;
         justify-items: center;
-        column-gap: 7.1rem;    
+        column-gap: 3.1rem;
     }
 
+
     .contentWrap {
-        height: 100vh;
+        min-height: 100vh;
     }
 
     .decorationSymbol {
@@ -122,8 +123,12 @@
         padding-top: 5vh;
     }
 
+    .videoWrap {
+        width: 48%;
+        
+    }
 
-
+ 
 
 
 
