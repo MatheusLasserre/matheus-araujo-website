@@ -58,10 +58,10 @@ function oDespertarAulas() {
                 </div>
                 <div className={odaStyle.linkcontainer}>
                 <Link href="https://www.omatheusaraujo.com.br/o-despertar-aula-1">
-            <p className={odaStyle.textlink}>Aula 1</p>
+            <p className={odaStyle.textlink}>&lt;&nbsp;Aula 1</p>
             </Link>
             <Link href="https://omatheusaraujo.com.br/o-despertar-aula-3">
-            <p className={odaStyle.textlink}>Aula 3</p>
+            <p className={odaStyle.textlink}>Aula 3&nbsp;&gt;</p>
             </Link>
             </div>
             </div>

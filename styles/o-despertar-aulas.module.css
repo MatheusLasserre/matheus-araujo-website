@@ -104,10 +104,11 @@
     .textlink {
         cursor: pointer;
         text-decoration: underline;
-        text-decoration-color: gray;
-        color: gray;
-        font-size: 1rem;
-        
+        text-decoration-color: #55A9BE;
+        color: #55A9BE;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-family: MonumentExtended;
     }
 
 
@@ -163,11 +164,8 @@
 }
 
     .textlink {
-        cursor: pointer;
-        text-decoration: underline;
-        text-decoration-color: gray;
-        color: gray;
-        font-size: 1rem;
+
+        font-size: 1.5rem;
         
     }
  

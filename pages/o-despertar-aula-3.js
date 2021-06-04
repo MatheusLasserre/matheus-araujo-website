@@ -58,7 +58,7 @@ function oDespertarAulas() {
                 </div>
                 <div className={odaStyle.linkcontainer2}>
                 <Link href="https://www.omatheusaraujo.com.br/o-despertar-aula-2">
-            <p className={odaStyle.textlink}>Aula 2</p>
+            <p className={odaStyle.textlink}>&lt;&nbsp;Aula 2</p>
             </Link>
             </div>
             </div>
