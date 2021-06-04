@@ -3,6 +3,7 @@ import odaStyle from '../styles/o-despertar-aulas.module.css'
 import Image from 'next/image'
 import AulasDespertar from '../components/ROC/aulasDespertar.js'
 import Head from 'next/head'
+import Link from 'next/link'
 
 function oDespertarAulas() {
 
@@ -48,15 +49,6 @@ function oDespertarAulas() {
                 </div>
             <div className={odaStyle.videosBackground}>
             <div className={odaStyle.videosWrap}>
-
-                <div className={odaStyle.videoWrap}>
-                    <AulasDespertar
-                        src="https://www.youtube.com/embed/2nHMUg9u6vU"
-                        titlee="AULA 1"
-                        subtitle="Como a Escola Te Enganou"
-                    />
-                </div>
-
                 <div className={odaStyle.videoWrap}>
                     <AulasDespertar
                         src="https://www.youtube.com/embed/OIUbErA7wy0"
@@ -64,16 +56,16 @@ function oDespertarAulas() {
                         subtitle="O Que Realmente é Literatura"
                     />
                 </div>
-
-                <div className={odaStyle.videoWrap}>
-                    <AulasDespertar
-                        src="https://www.youtube.com/embed/9CI9135p6m0"
-                        titlee="AULA 3"
-                        subtitle="Os Clássicos Podem Mudar a Sua Vida"
-                    />
-                </div>
-
+                <div className={odaStyle.linkcontainer}>
+                <Link href="https://www.omatheusaraujo.com.br/o-despertar-aula-1">
+            <p className={odaStyle.textlink}>Aula 1</p>
+            </Link>
+            <Link href="https://omatheusaraujo.com.br/o-despertar-aula-3">
+            <p className={odaStyle.textlink}>Aula 3</p>
+            </Link>
             </div>
+            </div>
+           
             </div>
 
             </div>

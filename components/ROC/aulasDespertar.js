@@ -4,6 +4,8 @@ import adStyle from '../../styles/aulasDespertar.module.css'
 function aulasDespertar(props) {
     return (
         <div>
+
+
             <div className={adStyle.contentWrap}>
                 <p className={adStyle.title}>{props.titlee}</p>
                 <p className={adStyle.subtitle}>{props.subtitle}</p>

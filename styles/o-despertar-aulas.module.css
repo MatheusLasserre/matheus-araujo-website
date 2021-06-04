@@ -3,6 +3,7 @@
     margin: auto;
     overflow: hidden;
     display: block;
+    min-height: 100vh;
 
 }
 
@@ -69,17 +70,45 @@
 
 .videosWrap {
     margin: auto;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column;
     align-items: center;
     justify-items: center;
-    justify-content: center;
+    justify-content: center; */
     width: 29rem;
-    row-gap: 4.2rem;
+    /* row-gap: 4.2rem; */
     padding-bottom: 8.4rem;
     padding-top: 3rem;
 }
 
+.videoWrap {
+    margin: auto;
+}
+
+.linkcontainer {
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.linkcontainer2 {
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+    .textlink {
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-color: gray;
+        color: gray;
+        font-size: 1rem;
+        
+    }
 
 
 @media only screen and (min-width: 768px) {
@@ -98,13 +127,9 @@
     } */
     .videosWrap {
         width: 87rem;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        justify-items: center;
-        column-gap: 3.1rem;
+        margin: auto;
     }
+
 
 
     .contentWrap {
@@ -124,10 +149,27 @@
     }
 
     .videoWrap {
-        width: 48%;
+        width: 50%;
+        margin: auto;
         
     }
 
+.linkcontainer {
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+    .textlink {
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-color: gray;
+        color: gray;
+        font-size: 1rem;
+        
+    }
  
 
 
