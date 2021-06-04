@@ -1,0 +1,131 @@
+.contentWrap {
+    background-color: #1E1E1E;
+    margin: auto;
+    overflow: hidden;
+    display: block;
+
+}
+
+.background {
+    /* width: 29rem; */
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.overflowControl {
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.background:before {
+    content: "";
+    position: absolute;
+    width: 500%;
+    height: 500%;
+    background-image:url('/images/ROC/bookcase.jpg'), linear-gradient(261.46deg, rgba(0, 0, 0, 0) 0%, rgba(26, 25, 25, 0.8) 5.15%);
+    background-size:100% 100%;
+    /* background-repeat: no-repeat; */
+    background-position-x: 25rem;
+    background-position-y: 0rem;
+    background-blend-mode: luminosity;
+    opacity: 0.1;
+}
+
+.background2 {
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0) 0%);
+
+}
+
+.background3 {
+    width: 100%;
+    background: url('/images/ROC/ROC-BG-OVER.png');
+    background-repeat: no-repeat;
+    background-size: auto 400%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.decorationSymbol {
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+/* .logo {
+    margin-bottom: -5rem;
+} */
+
+.videosBackground {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.504) 0%, rgba(0, 0, 0, 0) 30%);
+    width: 100%;
+}
+
+.videosWrap {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 29rem;
+    row-gap: 4.2rem;
+    padding-bottom: 8.4rem;
+    padding-top: 3rem;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    
+    .logo {
+        margin-top: 1rem;
+
+    }
+
+    .decorationSymbol {
+        padding-top: 3rem;
+    }
+
+    /* .overflowControl {
+        overflow: visible;
+    } */
+    .videosWrap {
+        width: 87rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        column-gap: 7.1rem;    
+    }
+
+    .contentWrap {
+        height: 100vh;
+    }
+
+    .decorationSymbol {
+        padding-top: 10vh;
+    }
+
+    .background:before {
+        width: 100vh;
+    }
+
+    .videosBackground {
+        padding-top: 5vh;
+    }
+
+
+
+
+
+
+
+}
