@@ -13,7 +13,7 @@ function oDespertarAulas() {
         <div>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Aulas - O Despertar</title>
+                <title>Aula 1 - O Despertar</title>
                 {/* <!-- Facebook Pixel Code --> */}
                 <script src="/fscript-3.js"></script>
                 <link rel="icon" href="/vercel.png" />
