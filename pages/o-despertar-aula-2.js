@@ -60,7 +60,7 @@ function oDespertarAulas() {
                 <Link href="https://www.omatheusaraujo.com.br/o-despertar-aula-1">
             <p className={odaStyle.textlink}>&lt;&nbsp;Aula 1</p>
             </Link>
-            <Link href="https://omatheusaraujo.com.br/o-despertar-aula-3">
+            <Link href="https://omatheusaraujo.com.br/o-despertar-aula-3" prefetch={false}>
             <p className={odaStyle.textlink}>Aula 3&nbsp;&gt;</p>
             </Link>
             </div>
