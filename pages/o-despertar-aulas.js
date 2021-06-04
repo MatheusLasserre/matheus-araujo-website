@@ -9,6 +9,14 @@ function oDespertarAulas() {
 
     return (
         <div>
+            <Head>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <title>Redescobrindo os Clássicos</title>
+                {/* <!-- Facebook Pixel Code --> */}
+                <script src="/fscript-3.js"></script>
+                <link rel="icon" href="/vercel.png" />
+          
+            </Head>
             <div className={odaStyle.contentWrap}>
                 <div className={odaStyle.overflowControl}>
                     <div className={odaStyle.background}>
@@ -66,7 +74,6 @@ function oDespertarAulas() {
 
             </div>
             </div>
-            <div className={odaStyle.spacer}></div>
 
             </div>
         </div>
