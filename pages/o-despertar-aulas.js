@@ -2,6 +2,7 @@ import React from 'react'
 import odaStyle from '../styles/o-despertar-aulas.module.css'
 import Image from 'next/image'
 import AulasDespertar from '../components/ROC/aulasDespertar.js'
+import Head from 'next/head'
 
 function oDespertarAulas() {
 
