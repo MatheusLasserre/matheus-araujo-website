@@ -31,7 +31,7 @@ function countdown({hoursMinSecs}) {
 
     return (
         <div className={CStyle.countdownFont}>
-             <p className={CStyle.timeFont}>{`${hrs.toString().padStart(2, '0')} :`}<br/><span className={CStyle.dateFont}>DIAS</span></p>
+             <p className={CStyle.timeFont}>{`${hrs.toString().padStart(2, '0')} :`}<br/><span className={CStyle.dateFont}>Horas</span></p>
              <p className={CStyle.timeFont}>{`${mins.toString().padStart(2, '0')} :`}<br/><span className={CStyle.dateFont2}>Minutos</span></p>
              <p className={CStyle.timeFont}>{`${secs.toString().padStart(2, '0')}`}&nbsp;&nbsp;<br/><span className={CStyle.dateFont3}>Segundos</span></p>
         </div>
