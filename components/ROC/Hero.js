@@ -2,9 +2,24 @@ import Image from 'next/image'
 import React from 'react'
 import heroStyle from '../../styles/hero.module.css'
 import Button from '../../components/ROC/Button'
+import Countdown from './countdown'
 
 
 function Hero() {
+
+    var countDownDate = new Date("Jul 1, 2021 00:00:00").getTime();
+
+    var now = new Date().getTime();
+
+    var distance = countDownDate - now;
+
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    const hoursMinSecs = {hours:hours, minutes: minutes, seconds: seconds}
+
     return (
         <div>
             <div className={heroStyle.heroBackground4}>
@@ -28,6 +43,8 @@ function Hero() {
                         <Button
                         txt="QUERO CONHECER O PODER DOS CLÁSSICOS"
                         />
+
+                        <Countdown hoursMinSecs={hoursMinSecs}/>
                         
                         <div className={heroStyle.decorationSymbol}><Image
                             src="/images/ROC/ROC-SMB-3.png"
