@@ -1,0 +1,60 @@
+.countdownFont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.timeFont {
+    font-family: MonumentExtended;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.3rem;
+    line-height: 1.8rem;
+    text-align: left;
+    letter-spacing: 0.05rem;
+    color: transparent;
+    background: linear-gradient(93.47deg, #396F77 -2.34%, #55A9BE 49.24%, #396F77 104.15%);
+    background-clip: text;
+    padding-top: 2rem;
+}
+
+
+.dateFont {
+    font-family: MonumentExtended;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color: #6D6D6D;
+    margin-left: 1rem;
+}
+
+.dateFont2 {
+    font-family: MonumentExtended;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    text-align: left;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color: #6D6D6D;
+    margin-right: 2rem;
+}
+
+.dateFont3 {
+    font-family: MonumentExtended;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    text-align: left;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color: #6D6D6D;
+}
