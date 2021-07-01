@@ -83,7 +83,7 @@ function Bloco9() {
                 </div>
                 <p className={B9Style.finalText}>Matheus Araújo é escritor, professor de Literatura, com mais de 5 (cinco) anos de experiência no ensino literário e foi aluno da Oficina Literária de Raimundo Carrero, uma das mais importantes oficinas literárias do Brasil.</p>
                 <p className={B9Style.finalText2}>Criador do Curso Online de Literatura, conta com mais de 150 alunos, atuando diariamente com escrita literária, leitura dos clássicos, mentorias e consultorias para aspirantes a escritores, professores de literatura e toda e qualquer pessoa que queira se aprofundar no mundo dos clássicos.</p>
-                <Countdown hoursMinSecs={hoursMinSecs}/>
+                {/* <Countdown hoursMinSecs={hoursMinSecs}/> */}
             </div>
             </div>
         </div>

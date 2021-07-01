@@ -4,6 +4,13 @@
     justify-content: center;
     align-items: center;
     column-gap: 1rem;
+    position: fixed;
+    top: 1rem;
+    /* left: 45%; */
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-left: 0.1rem;
+    z-index: 9999;
 }
 
 .timeFont {
@@ -57,4 +64,16 @@
     letter-spacing: 0.05rem;
     text-transform: uppercase;
     color: #6D6D6D;
+}
+
+@media only screen and (min-width: 768px) {
+    .countdownFont {
+        left: 40%;
+    }
+
+    .timeFont {
+        font-size: 5rem;
+        margin-left: 1rem;
+        margin-right: -1rem;
+    }
 }
